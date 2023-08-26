@@ -29,9 +29,6 @@ public class MainActivity extends AppCompatActivity {
     int FOOD;
     String FOod, ADDon, ORder, ToasT;
     private static final int PERMISSIONS_REQUEST_SMS = 2;
-    private int requestCode;
-    private String[] permissions;
-    private int[] grantResults;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -133,9 +130,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        this.requestCode = requestCode;
-        this.permissions = permissions;
-        this.grantResults = grantResults;
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == PERMISSIONS_REQUEST_SMS) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
