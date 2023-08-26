@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">FoodOrdering2</string>
+    <string name="burger_rm_6_70">Burger - RM 6.70</string>
+    <string name="pizza_rm_5_95">Pizza - RM 5.95</string>
+    <string name="salad_rm_4_95">Salad - RM 4.95</string>
+    <string name="add_on_item_rm_1_00_each">Add On Item (RM 1.00 each)</string>
+    <string name="mushroom_soup">Mushroom Soup</string>
+    <string name="bread_sticks">Bread Sticks</string>
+    <string name="croutons">Croutons</string>
+    <string name="submit_order">SUBMIT ORDER</string>
+    <string name="call_inquiry">CALL (INQUIRY)</string>
+    <string name="calculate_order">CALCULATE ORDER</string>
+    <string name="order_total">Order Total</string>
+    <string name="subtotal_rm">Subtotal (RM)</string>
+    <string name="tax_11_rm">Tax (11%) (RM)</string>
+    <string name="order_total_rm">Order Total (RM)</string>
+    <string name="main_menu">Main Menu</string>
 </resources>
